@@ -16,14 +16,14 @@ const Header = () => {
           {auth?.isLoggedIn ? (
             <>
               <NavigationLink
-                bg="#00fffc"
+                bg="#35DF79"
                 to="/chat"
                 text="Go To Chat"
                 textColor="black"
               />
               <NavigationLink
-                bg="#51538f"
-                textColor="white"
+                bg="#35DF79"
+                textColor="black"
                 to="/"
                 text="logout"
                 onClick={auth.logout}
@@ -32,14 +32,14 @@ const Header = () => {
           ) : (
             <>
               <NavigationLink
-                bg="#00fffc"
+                bg="#35DF79"
                 to="/login"
                 text="Login"
                 textColor="black"
               />
               <NavigationLink
-                bg="#51538f"
-                textColor="white"
+                bg="#35DF79"
+                textColor="black"
                 to="/signup"
                 text="Signup"
               />
